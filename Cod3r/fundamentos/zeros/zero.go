@@ -9,5 +9,4 @@ func main() {
 	var num2 float64
 
 	fmt.Printf("numbers: %v %v", num, num2)
-
 }
