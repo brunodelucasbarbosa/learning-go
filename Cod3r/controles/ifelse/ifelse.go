@@ -19,6 +19,15 @@ func main() {
 		fmt.Println("O numero é", i)
 	}
 
+	teste := true
+	teste2 := true
+
+	if teste || teste2 {
+		fmt.Println("SIM")
+	}
+
+	fmt.Println(notaConceito(7.0))
+
 }
 
 func calcularNota(nota float64) bool {
