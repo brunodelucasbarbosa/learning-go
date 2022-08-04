@@ -23,7 +23,7 @@ func main() {
 
 	rows, _ := db.Query("SELECT * FROM todos where id > $1", 2)
 	defer rows.Close()
-	rows.
+
 	for rows.Next() {
 		t := todo{}
 		rows.Scan(&t.id, &t.name, &t.done)
