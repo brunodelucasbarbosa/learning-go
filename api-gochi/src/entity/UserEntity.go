@@ -1,4 +1,4 @@
-package userRepository
+package userEntity
 
 type UserInput struct {
 	ID    int    `json:"-"`
@@ -14,3 +14,4 @@ type UserResponse struct {
 	Age   int    `json:"age"`
 	Taxid string `json:"taxid"` //cpf
 }
+
